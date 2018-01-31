@@ -20,6 +20,6 @@ while true; do
   echo "$count: $(date)" >> wallet-mining.log
 
   # change the address to your address
-  src/htmlcoin-cli generatetoaddress 100 HrRUR6q4AZDMTrz3kAPxSEiGaJkycSndDs 999999999 >> wallet-mining.log
+  src/htmlcoin-cli generatetoaddress 100 HrRUR6q4AZDMTrz3kAPxSEiGaJkycSndDs 222222222 >> wallet-mining.log
   (( count++ ))
 done
