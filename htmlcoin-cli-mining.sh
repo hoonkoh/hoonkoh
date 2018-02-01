@@ -1,7 +1,4 @@
 #!/bin/bash
-
-# if this file is not executable, plese make sure this file is executable
-# copy the line below without the # sign and press enter
 # chmod +x htmlcoin-wallet-mining.sh
 # now you can run this file by typing
 # ./htmlcoin-wallet-miining.sh
@@ -20,6 +17,6 @@ while true; do
   echo "$count: $(date)" >> wallet-mining.log
 
   # change the address to your address
-  src/htmlcoin-cli generatetoaddress 100 HrRUR6q4AZDMTrz3kAPxSEiGaJkycSndDs 222222222 >> wallet-mining.log
+  src/htmlcoin-cli generatetoaddress 100 HdiM5GZAb6PckiMosmTCAt9WS5gvuVVRXX 222222222 >> wallet-mining.log
   (( count++ ))
 done
